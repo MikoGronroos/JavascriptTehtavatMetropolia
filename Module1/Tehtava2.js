@@ -1,2 +1,4 @@
 const name = prompt('Type your name.');
-console.log('Hello, ' + name + '!');
+
+document.getElementById("target").innerHTML = 'Hello, ' + name + '!';
+
